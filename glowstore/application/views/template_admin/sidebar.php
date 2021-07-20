@@ -9,10 +9,10 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-store"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Glow Store <sup>*</sup></div>
+                <div class="sidebar-brand-text mx-3"><sup>*</sup>Glow Store </div>
             </a>
 
             <!-- Divider -->

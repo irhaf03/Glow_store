@@ -16,8 +16,10 @@
 			<td><?php echo $inv->alamat ?></td>
 			<td><?php echo $inv->tgl_pesan ?></td>
 			<td><?php echo $inv->batas_bayar ?></td>
-			<td><div class="btn btn-sm btn-warning">Detail</div></td>
+			<td><?php echo anchor('admin/Invoice/detail/'. $inv->id, '<div class="btn btn-sm btn-warning "><i class="fas fa-exclamation"></div>') ?></td>
 		</tr>
 	<?php endforeach; ?>
+
 	</table>
+	
 </div>
