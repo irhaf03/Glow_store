@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row text-center">
     
-    <?php foreach ($barang as $brg) : ?>
+    <?php foreach ($Serum as $brg) : ?>
 
         <div class="card mr-2" style="width: 12rem;">
           <img src="<?php echo base_url(). '/uploads/'. $brg->gambar ?>" class="card-img-top mb-1" alt="...">

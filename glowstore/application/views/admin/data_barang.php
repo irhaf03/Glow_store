@@ -51,6 +51,7 @@
       					<label>Kategori</label>
       					<input type="text" name="kategori" class="form-control">	
       			</div>
+      			
       			<div class="form-group">
       					<label>Harga</label>
       					<input type="text" name="harga" class="form-control">	

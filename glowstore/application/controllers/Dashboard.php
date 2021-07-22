@@ -53,4 +53,12 @@ redirect('dashboard');
 				echo "Maaf, Pesanan anda gagal di proses";
 			}
 		}
+	public function detail($id_brg)
+	{
+		$data['barang'] = $this->model_barang->detail_brg($id_brg);
+		$this->load->view('template/header');
+		$this->load->view('template/sidebar');
+		$this->load->view('detail_brg', $data); 
+		$this->load->view('template/footer');
+	}
 }
